@@ -22,7 +22,7 @@ def main():
 
     # Printing to console
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
+    print(f"Analyzing book found at {path}...")
 
     print("----------- Word Count ----------")
     print(book_lenght)
@@ -33,4 +33,5 @@ def main():
     print("============= END ===============")
 
 if __name__ == "__main__":
+
     main()
